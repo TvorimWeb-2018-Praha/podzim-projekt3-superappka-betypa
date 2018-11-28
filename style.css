@@ -30,4 +30,115 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+
+.navigace li{
+    display: inline-block;  
+}
+.navigace a{
+    padding: 15px 30px;
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+}
+.navigace a:hover{
+    background-color: #48418e;
+    color:white;
+}
+.navigace ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.navigace h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0;
+    margin: 0 40px 0 40px;
+    font-size:15px;
+}
+.superappka { 
+    background: #48418e url('images/pozadi.jpg') no-repeat;
+    background-size: 100%;
+    height: 458px;
+    position: relative;
+}
+.superappka img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.superappka p{
+    color: white;
+    font-size: 36px;
+    margin-left: 30px;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: -40px;
+    line-height: 1.2;
+}
+.superappka h1 {
+    padding: 25px 25px 0 25px;
+    margin-left: 10px;
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+    margin-top:0;
+}
+.tlacitka a {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 40px;
+    padding: 15px 35px;
+    size: 206px 62px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.tlacitka a:hover{
+    background-color: #25133d;
+}
+.stahnout{
+    background-color: #48418e;
+}
+.funkce {
+    display: flex;
+    flex-direction: row;
+    margin: 17px;
+}
+.funkce img {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.funkce h3 {
+    color: #48418e;
+}
+.funkce p{
+    margin: 16px;
+    text-align: center;
+}
+.cestuj {
+    margin: 16px;
+    text-align: center;
+}
+.chatuj {
+    margin: 16px;
+    text-align: center;
+}
+.zazij {
+    margin: 20px;
+    text-align: center;
+}
+.paticka {
+    background-color: #48418e;
+}
+.paticka p{
+    text-align: center;
+    color: white;
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 300;
+}
